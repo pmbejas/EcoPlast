@@ -1,7 +1,7 @@
 export default function Nosotros() {
   return (
-    <section className="p-10 max-w-5xl mx-auto animate-fadeIn duration-500 ease-out text-justify text-xl">
-      <h2 className="text-3xl font-bold mb-4 text-green-500">Nosotros</h2>
+    <section className="p-5 md:max-w-5xl mx-auto animate-fadeIn duration-500 ease-out text-justify text-xl">
+      <h3 className="text-3xl font-bold mb-4 text-green-500">Nosotros</h3>
       <p className="text-gray-300 leading-relaxed mb-4">
         En EcoPlast, creemos en un futuro más limpio, sostenible y consciente.
         Somos una empresa joven comprometida con el reciclaje de plásticos como

@@ -2,7 +2,7 @@ import Organigrama from "@/components/Organigrama";
 
 export default function Organizacion() {
   return (
-    <section className="p-10 max-w-5xl mx-auto animate-fadeIn duration-500 ease-out text-justify text-gray-200 leading-relaxed">
+    <section className="p-5 md:max-w-5xl mx-auto animate-fadeIn duration-500 ease-out text-justify text-gray-200 leading-relaxed">
       <h2 className="text-3xl font-bold mb-4 text-green-500">Organización</h2>
       <p className="mb-4 text-xl">
         Nuestra organización está basada en valores de transparencia,
