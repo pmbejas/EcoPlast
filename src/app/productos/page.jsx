@@ -27,7 +27,7 @@ const productos = [
 export default function Productos() {
   return (
     <div>
-      <section className="p-5 md:max-w-5xl mx-auto animate-fadeIn duration-500 ease-out text-xl text-justify">
+      <section className="p-5 md:max-w-5xl mx-auto animate-fadeIn duration-500 ease-out text-xl text-justify ">
         <h3 className="text-3xl font-bold mb-4 text-green-500">Proceso de Producción</h3>
         <p className="mb-4">
           Nuestra empresa desarrolla un proceso productivo que comienza desde la
@@ -52,7 +52,7 @@ export default function Productos() {
           población.
         </p>
       </section>
-      9<section className="p-10 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 animate-fadeIn duration-500 ease-out">
+      <section className="p-10 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 animate-fadeIn duration-500 ease-out">
         {productos.map((p) => (
           <ProductCard key={p.id} product={p} />
         ))}
