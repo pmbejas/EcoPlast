@@ -17,9 +17,10 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const toggleMenu = () => setIsOpen(!isOpen);
+  const isHome = pathname === '/hero'
 
   return (
-    <nav className="bg-gray-800 text-gray-300 dark:bg-gray-900 sticky top-0 z-50">
+    <nav className={`text-gray-300 ${ isHome ? 'dark:bg-gray-900' : 'dark:bg-gray-900'} sticky top-0 z-50`} >
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
         <div className="flex gap-2">
           <Image
@@ -28,7 +29,7 @@ export default function Navbar() {
             width={40} 
             height={40}
           />
-          <div className="text-gray-200 text-2xl font-bold">Reciclados</div>
+          <div className="text-gray-200 text-2xl font-bold">EcoPlast</div>
         </div>
 
         <button
@@ -62,7 +63,7 @@ export default function Navbar() {
         </button>
 
         <ul
-          className={`md:flex md:items-center md:space-x-8 absolute md:static bg-gray-800 dark:bg-gray-900 w-full md:w-auto left-0 md:left-auto top-16 md:top-auto transition-all duration-300 ease-in-out
+          className={`md:flex md:items-center md:space-x-8 absolute md:static bg-none w-full md:w-auto left-0 md:left-auto top-16 md:top-auto transition-all duration-300 ease-in-out
   ${
     isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
   } md:max-h-none md:opacity-100 md:overflow-visible`}
