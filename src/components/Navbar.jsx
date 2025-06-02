@@ -63,7 +63,7 @@ export default function Navbar() {
         </button>
 
         <ul
-          className={`md:flex md:items-center md:space-x-8 absolute md:static bg-none w-full md:w-auto left-0 md:left-auto top-16 md:top-auto transition-all duration-300 ease-in-out
+          className={`md:flex md:items-center md:space-x-8 absolute md:static bg-gray-900 w-full md:w-auto left-0 md:left-auto top-16 md:top-auto transition-all duration-300 ease-in-out
   ${
     isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
   } md:max-h-none md:opacity-100 md:overflow-visible`}
