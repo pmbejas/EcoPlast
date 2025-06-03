@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Equipo from "@/components/Equipo";
 
 export default function Nosotros() {
   return (
@@ -277,6 +278,7 @@ export default function Nosotros() {
         especialmente para sectores vulnerables y cooperativas de recolectores
         urbanos.
       </p>
+      <Equipo />
     </section>
   );
 }

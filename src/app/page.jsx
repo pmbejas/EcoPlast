@@ -1,3 +1,4 @@
+import Equipo from '@/components/Equipo';
 import Image from 'next/image';
 import Link from 'next/link';
 
