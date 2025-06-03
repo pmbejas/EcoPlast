@@ -68,7 +68,14 @@ export default function Nosotros() {
         ambiental y social en lugar de uno puramente rentable, la respuesta
         siempre fue negativa.
       </p>
-
+      <Image
+        src="/assets/images/historiaReUse.jpg"
+        alt="EcoPlast - Reutiliza"
+        width={400}
+        height={400}
+        className="w-full block md:hidden h-auto rounded-lg md:px-0 my-5"
+        priority
+      />
       <p className="text-gray-300 leading-snug mb-4">
         Cuando vimos que el camino privado no nos iba a abrir las puertas,
         decidimos intentarlo con el sector público. Preparamos una carpeta con
