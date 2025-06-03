@@ -107,7 +107,7 @@ export default function Nosotros() {
           alt="Nuestra historia"
           width={400}
           height={400}
-          className="w-full h-auto rounded-lg px-10 md:px-0"
+          className="w-full h-auto rounded-lg py-5"
           priority
         />
       </div>
@@ -153,7 +153,7 @@ export default function Nosotros() {
         alt="EcoPlast"
         width={400}
         height={400}
-        className="w-full h-auto rounded-lg px-10 md:px-0 mb-5"
+        className="w-full h-auto rounded-lg md:px-0 my-5"
         priority
       />
       <p className="text-gray-300 leading-snug mb-4 font-semibold">
