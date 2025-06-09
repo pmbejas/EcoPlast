@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Equipo from "@/components/Equipo";
 
 export default function Nosotros() {
   return (
@@ -240,45 +239,7 @@ export default function Nosotros() {
         ecológica y contribuyendo activamente a la construcción de un futuro más
         limpio y equilibrado para las próximas generaciones.
       </p>
-      <h3 className="text-3xl font-bold mb-4 text-green-500">
-        Información General
-      </h3>
-      <h4 className="text-xl font-bold mb-4 text-gray-200">
-        Identificación de la Empresa
-      </h4>
-      <p className="text-gray-300 leading-snug mb-4 ps-0 md:ps-5">
-        <span className="font-bold">Nombre:</span> EcoPlast S.A.M. (Sociedad
-        Anónima Mixta)
-      </p>
-      <p className="text-gray-300 leading-snug mb-4 ps-0 md:ps-5">
-        <span className="font-bold">Actividad principal:</span> Recolección,
-        clasificación y reciclado de plásticos para su reintroducción en el
-        circuito productivo.
-      </p>
-      <p className="text-gray-300 leading-snug mb-4 ps-0 md:ps-5">
-        <span className="font-bold">Ubicación:</span> Provincia de Tucumán,
-        Argentina.
-      </p>
-      <p className="text-gray-300 leading-snug mb-4 ps-0 md:ps-5">
-        <span className="font-bold">Socios:</span> Estado Provincial (a través
-        del Ministerio de Ambiente): 50% o Inversores privados (agrupados en
-        Ecoplast Capital S.A.): 50%
-      </p>
-      <h4 className="text-xl font-bold mt-10 mb-4 text-gray-200">Objetivos</h4>
-      <p className="text-gray-300 leading-snug mb-4 ps-0 md:ps-5">
-        <span className="font-bold">Económicos:</span> Obtener rentabilidad a
-        través de productos reciclados
-      </p>
-      <p className="text-gray-300 leading-snug mb-4 ps-0 md:ps-5">
-        <span className="font-bold">Ambientales:</span> Reducir contaminación
-        plástica, fomentar economía circular.
-      </p>
-      <p className="text-gray-300 leading-snug mb-4 ps-0 md:ps-5">
-        <span className="font-bold">Sociales:</span> Generar empleo formalizado,
-        especialmente para sectores vulnerables y cooperativas de recolectores
-        urbanos.
-      </p>
-      <Equipo />
+
     </section>
   );
 }

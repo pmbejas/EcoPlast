@@ -6,19 +6,19 @@ const members = [
   {
     name: 'Pablo Bejas',
     role: 'Desarrollador Fullstack',
-    image: '/team/pabloB.jpg',
+    image: 'assets/images/equipo/pabloB.jpg',
     description: 'Apasionado por la programación y la innovación tecnológica.',
   },
   {
     name: 'Alejo Garlati',
     role: 'Diseñador UX/UI',
-    image: '/team/alejoG.jpg',
+    image: 'assets/images/equipo/alejoG.png',
     description: 'Diseña con propósito y estética accesible.',
   },
   {
     name: 'Alejo Salas',
     role: 'Especialista en reciclado',
-    image: '/team/alejoS.jpg',
+    image: 'assets/images/equipo/alejoS.jpg',
     description: 'Experto en procesos de reutilización de plásticos.',
   },
   {
@@ -43,8 +43,8 @@ const members = [
 
 export default function Equipo() {
   return (
-    <section className="bg-gray-900 text-white py-12 px-4 md:px-12">
-      <h2 className="text-3xl font-bold text-center mb-10">Nuestro Equipo</h2>
+    <section className="bg-gray-900 text-white py-12 px-4">
+      <h2 className="text-3xl font-bold mb-10 text-green-500">Nuestro Equipo</h2>
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {members.map((member, index) => (
           <div
