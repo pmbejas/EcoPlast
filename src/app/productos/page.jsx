@@ -26,7 +26,7 @@ const productos = [
   {
     id: 4,
     name: "Postes de luz",
-    img: "/assets/images/productos/producto4.jpg",
+    img: "/assets/images/productos/producto4.png",
     description:
       "Iluminación vial en barrios eco-sustentables.",
   },
@@ -54,21 +54,21 @@ const productos = [
   {
     id: 8,
     name: "Mobiliario para plaza/jardín",
-    img: "/assets/images/productos/producto8.jpg",
+    img: "/assets/images/productos/producto8.png",
     description:
       "Plazas públicas, patios escolares.",
   },
   {
     id: 9,
     name: "Cestos de basura 50–120 L",
-    img: "/assets/images/productos/producto9.jpg",
+    img: "/assets/images/productos/producto9.png",
     description:
       "Recolección diferenciada domiciliaria.",
   },
   {
     id: 10,
     name: "Cucha para animales",
-    img: "/assets/images/productos/producto10.jpg",
+    img: "/assets/images/productos/producto10.png",
     description:
       "De uso exclusivo para Refugios y veterinarias.",
   },

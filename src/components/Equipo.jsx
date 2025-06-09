@@ -24,7 +24,7 @@ const members = [
   {
     name: 'Patricio Vargas',
     role: 'Marketing y Comunicación',
-    image: '/team/patricioV.jpg',
+    image: 'assets/images/equipo/patricioV.jpg',
     description: 'Conecta a Ecoplast con el mundo.',
   },
   {
