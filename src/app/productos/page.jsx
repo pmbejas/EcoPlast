@@ -6,71 +6,61 @@ const productos = [
     id: 1,
     name: "PlastiMadera",
     img: "/assets/images/productos/producto1.jpg",
-    description:
-      "Listones de 'Madera de Plastico'.",
+    description: "Listones de 'Madera de Plastico'.",
   },
   {
     id: 2,
     name: "Pellets",
     img: "/assets/images/productos/producto2.jpg",
-    description:
-      "Materia prima para fabricantes externos.",
+    description: "Materia prima para fabricantes externos.",
   },
   {
     id: 3,
     name: "Postes circulares (2mts)",
     img: "/assets/images/productos/producto3.jpg",
-    description:
-      "Son ideales para alambrados rurales, cercos de viñedo.",
+    description: "Son ideales para alambrados rurales, cercos de viñedo.",
   },
   {
     id: 4,
     name: "Postes de luz",
     img: "/assets/images/productos/producto4.png",
-    description:
-      "Iluminación vial en barrios eco-sustentables.",
+    description: "Iluminación vial en barrios eco-sustentables.",
   },
   {
     id: 5,
     name: "Placas 5–20 mm",
-    img: "/assets/images/productos/producto5.jpg",
-    description:
-      "División de espacios, cartelería, cerramientos de obra.",
+    img: "/assets/images/productos/producto5.png",
+    description: "División de espacios, cartelería, cerramientos de obra.",
   },
   {
     id: 6,
     name: "Ladrillos encastrables",
-    img: "/assets/images/productos/producto6.jpg",
-    description:
-      "Muros no portantes, módulos habitacionales.",
+    img: "/assets/images/productos/producto6.png",
+    description: "Muros no portantes, módulos habitacionales.",
   },
   {
     id: 7,
     name: "Reductores de velocidad",
-    img: "/assets/images/productos/producto7.jpg",
-    description:
-      "Para uso en vías urbanas o estacionamientos.",
+    img: "/assets/images/productos/producto7.png",
+    description: "Para uso en vías urbanas o estacionamientos.",
   },
   {
     id: 8,
     name: "Mobiliario para plaza/jardín",
     img: "/assets/images/productos/producto8.png",
-    description:
-      "Plazas públicas, patios escolares.",
+    description: "Plazas públicas, patios escolares.",
   },
   {
     id: 9,
     name: "Cestos de basura 50–120 L",
     img: "/assets/images/productos/producto9.png",
-    description:
-      "Recolección diferenciada domiciliaria.",
+    description: "Recolección diferenciada domiciliaria.",
   },
   {
     id: 10,
     name: "Cucha para animales",
     img: "/assets/images/productos/producto10.png",
-    description:
-      "De uso exclusivo para Refugios y veterinarias.",
+    description: "De uso exclusivo para Refugios y veterinarias.",
   },
 ];
 
@@ -104,18 +94,21 @@ export default function Productos() {
           Proceso Productivo
         </h3>
         <p className="mb-4">
-          <span className="font-bold text-green-500">Recolección y
-          Recepción:</span> Se recolectan residuos plásticos desde centros de acopio,
-          industrias, cooperativas o puntos verdes. Se reciben, pesan y
-          clasifican en la planta según tipo de plástico (PET, HDPE, LDPE,
-          etc.).
+          <span className="font-bold text-green-500">
+            Recolección y Recepción:
+          </span>{" "}
+          Se recolectan residuos plásticos desde centros de acopio, industrias,
+          cooperativas o puntos verdes. Se reciben, pesan y clasifican en la
+          planta según tipo de plástico (PET, HDPE, LDPE, etc.).
         </p>
         <p className="mb-4">
-          <span className="font-bold text-green-500">Clasificación y
-          Pretratamiento: </span> Se separan manual o mecánicamente los plásticos por
-          tipo y color. Se eliminan impurezas como etiquetas, restos de
-          alimentos, metales, etc. El material pasa por un proceso de lavado
-          industrial con agua caliente y detergentes especiales.
+          <span className="font-bold text-green-500">
+            Clasificación y Pretratamiento:{" "}
+          </span>{" "}
+          Se separan manual o mecánicamente los plásticos por tipo y color. Se
+          eliminan impurezas como etiquetas, restos de alimentos, metales, etc.
+          El material pasa por un proceso de lavado industrial con agua caliente
+          y detergentes especiales.
         </p>
         <Image
           src="/assets/images/produccion/separacion.jpg"
@@ -125,22 +118,25 @@ export default function Productos() {
           className="px-5 justify-self-center mt-5 mb-10 w-full h-auto"
         />
         <p className="mb-4">
-          <span className="font-bold text-green-500">Secado y Triturado: </span> Luego del lavado, se secan los plásticos con aire caliente o
+          <span className="font-bold text-green-500">Secado y Triturado: </span>{" "}
+          Luego del lavado, se secan los plásticos con aire caliente o
           centrífugas. Se trituran en molinos hasta obtener escamas (flakes) o
           pequeños trozos uniformes.
         </p>
         <Image
           src="/assets/images/produccion/triturado.jpg"
           alt="Organigrama"
-          width={1600}
-          height={900}
-          className="px-5 justify-self-center mt-5 mb-10 w-full h-auto"
+          width={600}
+          height={300}
+          className="px-5 justify-self-center mt-5 mb-10 h-auto"
         />
         <p className="mb-4">
-          <span className="font-bold text-green-500">Extrusión y
-          Pelletizado:</span> Las escamas se funden en extrusoras a alta temperatura.
-          Se filtran las impurezas restantes y el plástico fundido se corta en
-          pellets (gránulos).
+          <span className="font-bold text-green-500">
+            Extrusión y Pelletizado:
+          </span>{" "}
+          Las escamas se funden en extrusoras a alta temperatura. Se filtran las
+          impurezas restantes y el plástico fundido se corta en pellets
+          (gránulos).
         </p>
         <p className="mb-4">
           <span className="font-bold text-green-500">
@@ -164,11 +160,14 @@ export default function Productos() {
           distribuyen a clientes del sector público y privado, fomentando la
           economía circular.
         </p>
-      </section>
-      <section className="p-10 max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 animate-fadeIn duration-500 ease-out">
-        {productos.map((p) => (
-          <ProductCard key={p.id} product={p} />
-        ))}
+        <h3 className="text-3xl font-bold mt-5 mb-4 text-green-500">
+          Productos
+        </h3>
+        <section className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 animate-fadeIn duration-500 ease-out">
+          {productos.map((p) => (
+            <ProductCard key={p.id} product={p} />
+          ))}
+        </section>
       </section>
     </div>
   );

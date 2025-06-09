@@ -30,13 +30,13 @@ const members = [
   {
     name: 'Facundo Palavecino',
     role: 'Coordinador Operativo',
-    image: '/team/FacundoP.jpg',
+    image: 'assets/images/equipo/facundoP.jpg',
     description: 'Optimiza cada paso del proceso productivo.',
   },
   {
     name: 'Tadeo Giobelina',
     role: 'Administración y Finanzas',
-    image: '/team/TadeoG.jpg',
+    image: 'assets/images/equipo/tadeoG.jpg',
     description: 'Cuida el corazón financiero de Ecoplast.',
   },
 ]

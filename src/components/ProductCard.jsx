@@ -22,6 +22,7 @@ export default function ProductCard({ product }) {
             height={300}
             className="w-full h-44 object-contain mb-4"
             loading="lazy"
+
           />
           <h3 className="text-xl font-semibold text-green-500">{product.name}</h3>
         </div>
