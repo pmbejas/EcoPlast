@@ -122,7 +122,7 @@ export default function Productos() {
           alt="Organigrama"
           width={1600}
           height={900}
-          className="hidden md:block px-5 justify-self-center mt-5 mb-10 w-full h-auto"
+          className="px-5 justify-self-center mt-5 mb-10 w-full h-auto"
         />
         <p className="mb-4">
           <span className="font-bold text-green-500">Secado y Triturado: </span> Luego del lavado, se secan los plásticos con aire caliente o
@@ -134,7 +134,7 @@ export default function Productos() {
           alt="Organigrama"
           width={1600}
           height={900}
-          className="hidden md:block px-5 justify-self-center mt-5 mb-10 w-full h-auto"
+          className="px-5 justify-self-center mt-5 mb-10 w-full h-auto"
         />
         <p className="mb-4">
           <span className="font-bold text-green-500">Extrusión y
